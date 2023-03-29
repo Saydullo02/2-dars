@@ -17,7 +17,7 @@ var forMuseum = 120;
 var resultForTicketandhotel = ticketPrize + forHotel;
 
 var totalPrize = Math.round((USS_UZB * resultForTicketandhotel) + (EUR_UZB * forMuseum ));
-var totalPrompt = prompt("Umumiy harajatlar so'mmasi" , 8317489 );
+var totalPrompt = prompt("Umumiy harajatlar so'mmasi" , 0);
 
 if (totalPrize <= totalPrompt) {
     console.log("Oq yo'l, Alisher!");
